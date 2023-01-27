@@ -1,0 +1,13 @@
+main {
+    background-color: darkblue;
+    /* debug */
+    width: 100%;
+    height: 90vh;
+}
+
+footer {
+    background-color: darkred;
+    /* debug */
+    width: 100%;
+    height: 10vh;
+}
