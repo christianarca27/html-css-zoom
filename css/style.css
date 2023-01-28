@@ -70,8 +70,8 @@ main #container-picture .picture-box {
 }
 
 main #container-picture .picture-box .speaker-picture {
-    height: 100%;
     max-width: 100%;
+    height: auto;
 }
 
 main #container-picture .picture-box  .contact-name {
