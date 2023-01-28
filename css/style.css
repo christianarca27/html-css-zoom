@@ -1,3 +1,4 @@
+/* main */
 main {
     background-color: darkblue;
     /* debug */
@@ -8,11 +9,9 @@ main {
 
     padding-top: 80px;
     padding-bottom: 30px;
-
-    /* display: flex;
-    justify-content: center; */
 }
 
+/* menu-top-right */
 main #menu-top-right {
     background-color: darkgrey;
     /* debug */
@@ -38,7 +37,9 @@ main #menu-top-right #full-screen {
     height: 30px;
     /* debug */
 }
+/* /menu-top-right */
 
+/* container-picture */
 main #container-picture {
     background-color: darkgreen;
     /* debug */
@@ -49,7 +50,6 @@ main #container-picture {
 
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
 
     overflow-y: auto;
 }
@@ -74,7 +74,10 @@ main #container-picture .picture-box  .contact-name {
     bottom: 0;
     left: 0;
 }
+/* /container-picture */
+/* /main */
 
+/* footer */
 footer {
     background-color: darkgrey;
     /* debug */
@@ -86,23 +89,30 @@ footer {
     justify-content: space-between;
 }
 
+/* footer-left */
 footer #footer-left {
     background-color: darkred;
     width: 10%;
     height: 100%;
     /* debug */
 }
+/* /footer-left */
 
+/* footer-center */
 footer #footer-center {
     background-color: darkred;
     width: 30%;
     height: 100%;
     /* debug */
 }
+/* /footer-center */
 
+/* footer-right */
 footer #footer-right {
     background-color: darkred;
     width: 10%;
     height: 100%;
     /* debug */
 }
+/* /footer-right */
+/* /footer */
