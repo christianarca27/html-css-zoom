@@ -64,6 +64,7 @@ main .container-centered  #container-picture {
 
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 main #container-picture .picture-box {
